@@ -3,7 +3,7 @@
 # - returns: a dataframe of the names and entrez ids of the pathway's
 # gene members
 
-# packages: biocLite("org.Hs.eg.db"), biocLite("org.Hs.eg.db")
+# packages: BiocManager::install("org.Hs.eg.db"), BiocManager::install("org.Hs.eg.db")
 
 utils::globalVariables(c("org.Hs.eg.db", "annotate","getSYMBOL"))
 
